@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
 
-## Project info
+# Restaurant Reservation System
 
-**URL**: https://lovable.dev/projects/57923cf4-8f58-49da-b87f-eb45ade68971
+A web-based application for managing restaurant reservations, allowing users to book, update, and cancel tables efficiently, with an admin panel to track all reservations in real-time.
 
-## How can I edit this code?
+## Features
+- User registration and login
+- Book, update, and cancel reservations
+- View table availability in real-time
+- Admin dashboard to manage all reservations
+- Validation for date, time, and table availability
+- Responsive design for desktop and mobile
 
-There are several ways of editing your application.
+## Technologies Used
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js (or Django/Flask)
+- **Database:** MongoDB / MySQL / PostgreSQL
+- **Authentication:** JWT or Session-based
+- **Version Control:** Git & GitHub
+- **Deployment:** Heroku / Netlify / AWS (optional)
 
-**Use Lovable**
+## Installation
+1. Clone the repository:  
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to backend and install dependencies:  
+   ```bash
+   cd backend
+   npm install
+   ```
+3. Navigate to frontend and install dependencies:  
+   ```bash
+   cd frontend
+   npm install
+   ```
+4. Set up your `.env` file with database credentials and JWT secret.
+5. Run backend server:  
+   ```bash
+   npm run server
+   ```
+6. Run frontend server:  
+   ```bash
+   npm start
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/57923cf4-8f58-49da-b87f-eb45ade68971) and start prompting.
+## Usage
+- Access the app on `http://localhost:3000`
+- Register as a user to make reservations
+- Login as admin to manage all reservations
+- Book, update, or cancel table reservations
 
-Changes made via Lovable will be committed automatically to this repo.
+## Future Enhancements
+- Email notifications for booking confirmation
+- Table search and filter by date/time
+- Analytics dashboard for admin
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/57923cf4-8f58-49da-b87f-eb45ade68971) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+This project is licensed under the MIT License.
